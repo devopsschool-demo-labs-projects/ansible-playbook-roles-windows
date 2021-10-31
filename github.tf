@@ -14,9 +14,14 @@ provider "github" {
 }
 
 
-resource "github_repository" "github-repo-1" {
-  name        = "terraform-demo-4"
+resource "github_repository" "example" {
+  name        = "example"
   description = "My awesome codebase"
 
   visibility = "public"
+
+  template {
+    owner      = "devopsschool-demo-temporary"
+    repository = "terraform-module-template"
+  }
 }
