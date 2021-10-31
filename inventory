@@ -3,7 +3,7 @@
 
 [web:vars]
 ansible_user=Administrator
-ansible_password="=5Bq5Imk-V6mPX@sR)N8lRUc(zD2H@Ze"
+ansible_password="Raju$123456"
 ansible_connection=winrm
 ansible_winrm_transport=basic
 ansible_winrm_scheme=http
