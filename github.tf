@@ -19,9 +19,4 @@ resource "github_repository" "example" {
   description = "My awesome codebase"
 
   visibility = "public"
-
-  template {
-    owner      = "devopsschool-demo-temporary"
-    repository = "terraform-module-template"
-  }
 }
