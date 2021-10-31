@@ -1,13 +1,12 @@
-
 [web]
 13.233.237.155
 
 
 [web:vars]
-ansible_user: administrator
-ansible_password: =5Bq5Imk-V6mPX@sR)N8lRUc(zD2H@Ze
-ansible_connection: winrm
-ansible_winrm_transport: basic
+ansible_user=administrator
+ansible_password='=5Bq5Imk-V6mPX@sR)N8lRUc(zD2H@Ze'
+ansible_connection=winrm
+ansible_winrm_transport=basic
 ansible_winrm_server_cert_validation=ignore
 
 
